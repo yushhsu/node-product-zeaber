@@ -31,7 +31,7 @@ const server = http.createServer(function (req, res) {
     res.statusCode = 200;
     res.end(
       JSON.stringify({
-        message: "歡迎使用 API 服務",
+        message: "歡迎使用 Alysha 的 API 服務",
         description: "這是一個示範用的 3C 產品查詢 API。",
         endpoints: {
           health: {
